@@ -1,7 +1,7 @@
 import React from "react";
 
 import Booking from "../assets/Booking Icon.png";
-import { Link } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -17,10 +17,10 @@ function Home() {
       </div>
 
       <div className="d-flex justify-content-start">
-        <div className="btn btn-outline-primary" style={{ fontSize: "14px" }}>
+        <Link to="/Booking"  className="btn btn-outline-primary text-decoration-none" style={{ fontSize: "14px" }}>
           <img src={Booking} alt="" width={30} />
           <h6>Booking</h6>
-        </div>
+        </Link>
       </div>
 
       <div className="row mt-4">

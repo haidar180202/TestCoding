@@ -1,4 +1,4 @@
-{
+let addbooking = {
     "sportsFieldId": "65b890e8d61dbd29403f2f37", //dari id lapangan
     "booking": [
         {
@@ -10,3 +10,5 @@
     "contactPerson": "08228558855",
     "bookingStatus": "onProcess"
 }
+
+export {addbooking}

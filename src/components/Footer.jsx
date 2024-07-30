@@ -5,8 +5,8 @@ import logo3 from "../assets/Group 3187.png";
 
 function Footer() {
   return (
-    <div className="container">
-        <div className="row mt-4">
+    
+      <div className="row mt-4">
         <div className="col-md-12">
           <div
             className="d-flex justify-content-center align-items-center"
@@ -39,7 +39,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    
   )
 }
 

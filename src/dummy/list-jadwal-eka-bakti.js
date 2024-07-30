@@ -1,4 +1,4 @@
-{
+let jadwaleka = {
     "_id": "65c2f79a6ed90c5818a53d08",
     "sportsFieldId": "65b891ccd61dbd29403f2f3f",
     "year": "2024",
@@ -758,3 +758,5 @@
     "updatedAt": "2024-02-07T03:23:25.327Z",
     "__v": 92
 }
+
+export {jadwaleka}

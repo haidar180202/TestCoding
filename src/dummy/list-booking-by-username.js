@@ -1,4 +1,4 @@
-{
+let listbooking = {
     "bookings": [
         {
             "totalSessionBooking": 1,
@@ -513,3 +513,5 @@
     "Payed": 6,
     "Cancelled": 4
 }
+
+export {listbooking}

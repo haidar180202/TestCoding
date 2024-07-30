@@ -1,4 +1,4 @@
-{
+let listjadwal = {
     "_id": "65b9eaaf57ec6738248f01f4",
     "sportsFieldId": "65b890e8d61dbd29403f2f37",
     "year": "2024",
@@ -758,3 +758,5 @@
     "updatedAt": "2024-04-16T04:31:57.860Z",
     "__v": 92
 }
+
+export {listjadwal}

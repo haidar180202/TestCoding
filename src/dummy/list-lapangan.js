@@ -1,4 +1,4 @@
-[
+let datalistlapangan = [
     {
         "_id": "65b890e8d61dbd29403f2f37",
         "sportsFieldName": "Lapangan 1 Bulu Tangkis Cempako",
@@ -310,3 +310,5 @@
         "__v": 0
     }
 ]
+
+export {datalistlapangan}
