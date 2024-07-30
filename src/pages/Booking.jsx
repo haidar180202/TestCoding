@@ -17,22 +17,16 @@ const Booking = () => {
           </div>
           <div className="col-md-12 mb-2 mt-3">
             <div className="d-flex justify-content-center">
-              <img src={BookingIcon} alt="" width={160}/>
+              <img src={BookingIcon} alt="Booking" width={160}/>
             </div>
           </div>
           <div className="col-md-12 mb-2">
             <div>
               <div className="d-flex justify-content-center">
-                <img src={menupenyewaan} />
+                <img src={menupenyewaan} alt=""/>
               </div>
 
-              {/* <img
-                src={lanjutkeinformasi}
-                alt={lanjutkeinformasi}
-                className="lanjutkeinformasi"
-                onClick={handleClick}
-                style={{ cursor: "pointer" }}
-              /> */}
+         
             </div>
           </div>
         </div>
