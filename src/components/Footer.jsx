@@ -1,4 +1,7 @@
 import React from 'react'
+import logo1 from "../assets/Group 3182.png";
+import logo2 from "../assets/Group 3183.png";
+import logo3 from "../assets/Group 3187.png";
 
 function Footer() {
   return (
@@ -14,7 +17,7 @@ function Footer() {
             }}
           >
             <div className="d-flex align-items-center me-3">
-              <i
+              {/* <i
                 className="bi bi-geo-alt-fill"
                 style={{ fontSize: "20px" }}
               ></i>
@@ -23,25 +26,16 @@ function Footer() {
               </p>
               <p className="mb-0" style={{ fontSize: "12px" }}>
                 Kota Palembang
-              </p>
+              </p> */}
+              <img src={logo1} alt="" width={190}/>
             </div>
             <div className="d-flex align-items-center me-3">
-              <i
-                className="bi bi-house-door-fill"
-                style={{ fontSize: "20px" }}
-              ></i>
-              <p className="mb-0" style={{ fontSize: "14px" }}>
-                Dinas Kebudayaan dan Pariwisata Kota Palembang
-              </p>
+                <img src={logo2} alt="" width={190}/>
             </div>
             <div className="d-flex align-items-center">
-              <img
-                src="https://i.ibb.co/F4n26j2/logo.png"
-                alt="Logo"
-                className="img-fluid"
-                style={{ width: "30px", height: "30px" }}
-              />
+            <img src={logo3} alt="" width={150}/>
             </div>
+
           </div>
         </div>
       </div>

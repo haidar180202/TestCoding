@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="container">
+    <section className="container">
       <div className="row">
         <div className="col-md-12">
           <div className="d-flex justify-content-between ">
@@ -16,7 +16,7 @@ const Header = () => {
               <Link to="#" className="text-decoration-none me-3">
                 <i className="bi bi-bell-fill" style={{ fontSize: "20px" }}></i>
               </Link>
-
+              
               <div className="d-flex align-items-center">
                 <img
                   src="https://i.ibb.co/0m7jY7m/profile.png"
@@ -37,7 +37,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
