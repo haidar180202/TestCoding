@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Documentation React App With CRA <img src="https://img.shields.io/badge/-React js-05122A?style=flat&logo=react" width="85" height="25" alt="react logo"> <img src="https://img.shields.io/badge/-CRA -05122A?style=flat&logo=create-react-app" width="85" height="25" alt="cra logo"> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvmaGlMyLwaEbFEK6PeYp1ZPGd5eoUuEzgpu-gY12dFd8VwIlZef754RzcUIjJ2p3WYsw&usqp=CAU" width="35%" alt="logo">
+</p>
 
-## Available Scripts
+## Getting started
 
-In the project directory, you can run:
+These instructions will get you through run of simulation react with cra.
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Make sure that you have node js to installed in your device for run this application
+  - Windows or macOS:
+    [Install Node js Desktop](https://nodejs.org/en/download)
+  - Linux: [Install Node js](https://nodejs.org/en/download)
+- Download or see this [data](https://) and create the app like this.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Running a sample
 
-### `npm test`
+After you install Node js, run the file that you installed until the file that is installed is complete and check with:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+node --version
+```
+or
+```
+node -v
+```
 
-### `npm run build`
+After this you can clone myproject app with 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone "link of project"
+```
+```
+For example:
+git clone https://github.com/haidar180202/TestCoding.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+After this,open your folder is already to clone in your device and install node modules with
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+```
 
-### `npm run eject`
+so if dont wont to waiting along time with npm install so you can use 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+pnpm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+but for the first you have run this code 
+```
+npm install -g pnpm
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+If you have the problem with the pnpm like this:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![problem.jpg](./src/assets/documentasi/problem.JPG)
 
-## Learn More
+So you can look [this](https://lazyadmin.nl/powershell/running-scripts-is-disabled-on-this-system/) for fixed the problem
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+After this if you use pnpm in the app you can run with 
+```
+pnpm run start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+or 
 
-### Code Splitting
+```
+pnpm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you use npm in the app you can run app with 
 
-### Analyzing the Bundle Size
+```
+npm run start
+```
+or 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm start
+```
+So if you run this app the page applications you can see like this
+![project app](./src/assets/documentasi/image-project%20.png) 
+### The Finish Of Decomentation :
 
-### Making a Progressive Web App
+### Create By : Muhammad Haidar Shahab
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### So if you want know about me so you can see my profile:
 
-### Advanced Configuration
+[My Github](https://github.com/haidar180202) ( Have an problem ) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[My Gitlab](https://gitlab.com/haidar1802/myapp)
 
-### Deployment
+[My Portfolio](https://profile-muhammad-haidar-shahab.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### The technology use to create the application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://img.shields.io/badge/-CRA-05122A?style=flat&logo=create-react-app" width="60" height="25" alt="cra logo"> <img src="https://img.shields.io/badge/-Custom Hooks-05122A?style=flat&logo=react-hooks" width="60" height="25" alt="Hooks logo"> <img src="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3" width="60" height="25" alt="redux logo"> <img src="https://img.shields.io/badge/-Bootstrap-05122A?style=flat&logo=bootstrap" width="60" height="25" alt="bootstrap logo"> 
